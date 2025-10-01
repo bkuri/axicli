@@ -1,0 +1,24 @@
+pkgbase = axicli
+	pkgdesc = AxiDraw Command Line Interface (CLI) for controlling AxiDraw pen plotters
+	pkgver = 3.9.6
+	pkgrel = 1
+	url = https://axidraw.com/doc/cli_api
+	arch = any
+	license = custom
+	makedepends = python-pip
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	makedepends = python-tqdm
+	makedepends = python-pyclipper
+	makedepends = python-build
+	makedepends = python-virtualenv
+	depends = python>=3.8
+	depends = python-lxml
+	depends = python-pyserial
+	depends = python-requests
+	optdepends = python-numpy: For enhanced mathematical operations
+	optdepends = python-pillow: For image processing capabilities
+	source = https://cdn.evilmadscientist.com/dl/ad/public/AxiDraw_API.zip
+	sha256sums = c29ef0792dc8a2006a3a4abcb306e8d7fa5b93f8ce83c0c781eed226d7eeca24
+
+pkgname = axicli
