@@ -1,0 +1,86 @@
+# Arch Linux Package .gitignore
+# For AxiCLI PKGBUILD repository
+
+# Package build artifacts
+*.pkg.tar.*
+*.pkg.tar.xz
+*.pkg.tar.zst
+src/
+pkg/
+
+# Python package artifacts
+*.whl
+*.egg-info/
+build/
+dist/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# AUR metadata
+.SRCINFO
+
+# Temporary files
+*.tmp
+*.temp
+*.backup
+*.orig
+*.rej
+
+# Development files
+*.log
+*.swp
+*.swo
+*~
+
+# Downloaded packages
+*.zip
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test files
+test_*
+*_test.*
+rendered_*
+
+# Documentation builds
+docs/build/
+_site/
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Node modules (if any JS dependencies)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Coverage directory used by tools like istanbul
+coverage/
+.nyc_output
+
+# Backup files
+PKGBUILD.backup
+PKGBUILD.*
+update-*.sh
+build.sh
+prepare.sh
+test*.sh
+
+# Summary documentation (can be regenerated)
+*.md
+!README.md
