@@ -17,9 +17,6 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# AUR metadata
-.SRCINFO
-
 # Temporary files
 *.tmp
 *.temp
