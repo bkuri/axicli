@@ -1,0 +1,21 @@
+# axicli.install
+post_install() {
+  cat <<'EOS'
+AxiCLI installed.
+
+Try:
+  axicli --version
+  axicli -m manual -M list_names
+  axicli your_file.svg
+
+Docs: https://axidraw.com/doc/cli_api/
+EOS
+}
+
+post_upgrade() {
+  echo "AxiCLI upgraded. Verify with: axicli --version"
+}
+
+post_remove() {
+  echo "AxiCLI removed."
+}
