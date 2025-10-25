@@ -1,7 +1,7 @@
 pkgbase = axicli
 	pkgdesc = AxiDraw CLI and Python API for controlling AxiDraw pen plotters (bundles plotink & ink_extensions)
 	pkgver = 3.9.6
-	pkgrel = 2
+	pkgrel = 3
 	url = https://axidraw.com/doc/cli_api
 	install = axicli.install
 	arch = any
